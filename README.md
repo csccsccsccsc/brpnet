@@ -9,6 +9,8 @@ For some reasons, there also exists MATLAB scripts in this project. The MATLAB s
 We wrap all images into a .npy file (data_after_stain_norm_ref1.npy). Stain normalization is also performed.
 Ground truth of segmentation and boundary is saved in anoth .npy file (gt.npy, bnd.npy).
 
+The wrapped data file can be generated using the scripts in 'data_generator_scripts'.
+
 ## tafe
 TAFE is the first stage of BRP-Net. 
 
@@ -43,4 +45,5 @@ python main.py
 4) python eval_testset.py
 5) python evaluate_testset.py
 
-
+### Contact:
+mailbox: c.shengcong@mail.scut.edu.cn
